@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head></head>
+    <meta charset="utf-8">
+    <title>New Account</title>
+    <link rel="icon" href="key.png">
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+
+<div class="login-box">
+  <h1 id="login">New Account</h1>
+  <div class="textbox1">
+  <div class="textbox2">
+  <i class="fas fa-user"></i>
+  <input id="email" type="text" placeholder="Email">
+  </div>
+
+  <script>
+function changetext(){
+    var newaccount = document.getElementById("newaccount").value;
+     document.getElementById("login").innerHTML = "New Account, " + newaccount + "";
+}
+  </script>
+
+  <div class="textbox1">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Password">
+  </div>
+
+  <div class="textbox3">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Confirm Password">
+  </div>
+
+  <div class="bottom">
+      <input type="button" class="btn3" value="Create Account">
+      <div class="login">
+
+  </body>
+
+</html>

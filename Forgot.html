@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head></head>
+    <meta charset="utf-8">
+    <title>Forgot Password</title>
+    <link rel="icon" href="key.png">
+    <link rel="stylesheet" href="Style3.css">
+  </head>
+  <body>
+
+<div class="login-box">
+  <h1 id="login">Forgot Password</h1>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input id="email" type="text" placeholder="Email">
+  </div>
+
+  <script>
+function changetext(){
+    var email = document.getElementById("email").value;
+     document.getElementById("login").innerHTML = "Forgot Password, " + email + "";
+}
+  </script>
+
+<div class="bottom">
+    <input type="button" class="btn1" value="Send email">
+    <div class="login">
+
+  </body>
+
+</html>

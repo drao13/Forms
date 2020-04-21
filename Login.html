@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head></head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="icon" href="key.png">
+    <link rel="stylesheet" href="Style1.css">
+  </head>
+  <body>
+
+<div class="login-box">
+  <h1 id="login">Welcome</h1>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input id="username" type="text" placeholder="Username or email">
+  </div>
+
+  <script>
+function changetext(){
+    var username = document.getElementById("username").value;
+     document.getElementById("login").innerHTML = "Welcome, " + username + "";
+}
+
+  </script> 
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Password">
+  </div>
+
+
+
+<div class="bottom"> 
+        <input type="button" class="btn" value="Sign in">
+        <div class="down">
+        <label class="container">
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+          <input type="button" class="btn1" value="Remember Me?">
+          
+  </div>
+        <div class="login">
+                <a id="login" href="NewAccount.html">Create an Account</a>
+        </div>
+
+<div class="up">
+                <a id="login" href="Forgot.html">Forgot Password?</a>
+        </div>
+</div>
+
+
+
+  </body>
+
+</html>
